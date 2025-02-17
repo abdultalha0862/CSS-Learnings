@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+
+        /* Element Selector */
+        div{
+            background-color: lightblue;
+        }
+
+        /* Class Selector */
+        .div1{
+            background-color: lime;
+            color: tomato;
+        }
+
+        /* ID Selector */
+        #div2{
+            background-color: rgb(155, 102, 106);
+            color: black;
+        }
+        /* Child Selector */
+        .div1 > p{
+            background-color: rgb(255, 0, 0);
+            color: orange;
+        }
+
+        /* Universal Selector */
+        *{
+            border: 1px solid black;
+        }
+
+        a:link{
+            color: red;
+        }
+        a:visited{
+            color: green;
+        }
+        a:active{
+            color: blue;
+        }
+        a:hover{
+            color: yellow;
+        }
+        .div1 > p {
+            background-color: rgb(0, 8, 255);
+            color: rgb(22, 15, 3);
+        }
+        
+
+    </style>
+</head> 
+<body>
+    <div class="div1">
+        I am a div element
+        <p>
+            I am a paragraph inside a div element
+            <p>
+                I am a paragraph inside a paragraph
+            </p>
+        </p>
+
+        <p>
+            I am a 2nd paragraph inside a div element
+        </p>
+
+    </div>
+
+
+    <div id="div2">
+        I am a 2nd div element
+    </div>
+
+
+    <div class="div1">
+
+        I am a 3rd div element
+        <p>
+            I am a paragraph inside a div element
+        </p>
+    </div>
+
+    <div id="div2">
+        I am a 4th div element
+    </div>
+
+
+    <a href="https://www.google.co.in/">google</a>
+
+    <a href="https://www.instagram.com/accounts/login/?hl=en">instagram</a>
+</body>
+</html>
