@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.box{    
+    border: 3px solid black;
+    display: inline;
+}
+.ele{
+    border: 2px solid black;
+    display: inline-block;
+}
+.box1{
+    /* display: none;
+    visibility: hidden; */
+    display: flex;
+}
+
+.box2{
+    display: flex;
+}
