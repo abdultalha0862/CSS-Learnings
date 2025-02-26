@@ -1,0 +1,11 @@
+.box{
+    padding: 30px;
+    border: 2px solid blue;
+    box-shadow: 5px 10px 5px salmon;
+}
+#para{
+    text-shadow: 2px 4px 4px seagreen;
+    outline: 5px solid blueviolet;
+    border: 2px solid black;
+    outline-offset: 25px;
+}
