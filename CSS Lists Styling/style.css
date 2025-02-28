@@ -1,0 +1,9 @@
+nav ul li{
+    list-style:decimal;
+    background-color: aqua;
+    padding: 10px;
+    list-style-position: inside;
+    border: 2px solid yellowgreen;
+}
+
+
