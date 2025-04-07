@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Variables</title>
+    <style>
+
+        :root{
+            --color:blue;
+            --scolor:red;
+            --ucolor:aqua;
+        }
+        
+        .nav{
+            background-color: beige;
+        }
+
+        .para{
+            --scolor:rgb(139, 105, 204);
+            background-color: var(--scolor);
+        }
+        div ul li{
+            list-style: none;
+        }
+        div ul{
+            display: flex;
+            gap: 10px;
+        }
+
+        li:first-child{
+            background-color: var(--ucolor);
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="nav">
+        <ul>
+            <li>Home</li>
+            <li>Projects</li>
+            <li>Skills</li>
+        </ul>
+    </div>
+
+    <div class="para">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ducimus quasi porro deleniti, et voluptatem officiis pariatur, ipsa minus itaque est repellendus quae perspiciatis ab vitae maiores modi. Necessitatibus excepturi nihil inventore?
+    </div>
+
+    
+</body>
+</html>
