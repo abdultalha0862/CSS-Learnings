@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        /* .box:first-child{
+            color: aqua;
+        } */
+/* 
+        .boxes::first-line{
+            background-color: rgb(140, 226, 226);
+        } */
+        .boxes *{
+            background-color: bisque;
+            border: 2px solid rgb(112, 32, 32);
+        }
+
+        .box:nth-child(odd){
+            background-color: rgb(111, 255, 0);
+        }
+
+        .box:nth-last-child(odd){
+            background-color: rgb(124, 95, 95);
+        }
+
+        .box::before{
+            content: "You are Awesome";
+        }
+
+        .boxes::after{
+            content: "You are amazing";
+            background-color: blanchedalmond;
+            color: tomato;
+        }
+        ::selection{
+            color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <div class="boxes">
+        <div class="box">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus quia sit, nihil ut dolores quas magnam quis dicta natus deleniti similique doloribus nulla, commodi dolorum quo nesciunt iusto recusandae tempora maxime, voluptatem non temporibus. Dolorum hic a labore ad dicta, temporibus, maiores iste magnam aliquam tenetur quas libero sit ea fuga consequuntur sequi accusantium quasi porro eligendi, sunt optio. Adipisci doloribus dolores, asperiores laborum quam fugiat nulla quis ipsa repellendus cum temporibus quod consequuntur porro. Pariatur, recusandae ipsa dolore eveniet nulla quo, exercitationem distinctio iste vitae ducimus expedita excepturi itaque.</div>
+        <div class="box">hey I am box 2</div>
+        <div class="box">Hey I am box 3</div>
+
+        <div class="box">hey I am box 2</div>
+        <div class="box">Hey I am box 3</div>
+    </div>
+</body>
+</html>
