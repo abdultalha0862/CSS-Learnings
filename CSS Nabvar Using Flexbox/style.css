@@ -1,0 +1,13 @@
+nav div li{
+    list-style: none;
+}
+nav div{
+    display: flex;
+    padding-left: 50%;
+    gap: 50px;
+    background-color: aqua;
+}
+.items{
+    height: 70px;
+    align-items: center;
+}
